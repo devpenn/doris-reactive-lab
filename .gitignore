@@ -1,0 +1,13 @@
+# 凭据：dev-test Doris 真实连接值只进本文件排除的 local.env，绝不入库
+local.env
+*.env
+!local.env.example
+
+target/
+dependency-reduced-pom.xml
+.idea/
+*.iml
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc

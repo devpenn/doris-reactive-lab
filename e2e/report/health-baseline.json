@@ -1,0 +1,17 @@
+[
+ {
+  "name": "Reactive MySQL connections health check",
+  "status": "UP",
+  "data": {
+   "dorispool": "UP",
+   "<default>": "UP"
+  }
+ },
+ {
+  "name": "Database connections health check",
+  "status": "UP",
+  "data": {
+   "dorisjdbc": "UP"
+  }
+ }
+]
